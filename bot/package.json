@@ -1,0 +1,25 @@
+{
+  "name": "telegram-downloader-bot",
+  "version": "1.0.0",
+  "description": "This telegram bot can download youtube videos.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayesh-saini/telegram-downloader-bot.git"
+  },
+  "author": "Jayesh Saini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayesh-saini/telegram-downloader-bot/issues"
+  },
+  "homepage": "https://github.com/jayesh-saini/telegram-downloader-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql": "^2.18.1",
+    "node-telegram-bot-api": "^0.65.1",
+    "redis": "^4.6.13"
+  }
+}
