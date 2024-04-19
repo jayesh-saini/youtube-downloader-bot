@@ -1,0 +1,18 @@
+{
+  "name": "file_server",
+  "version": "1.0.0",
+  "description": "This file server would be required to download the video/audio files >50 MB, as telegram has limit of 50 MB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jayesh Saini",
+  "license": "ISC",
+  "dependencies": {
+    "@ngrok/ngrok": "^1.2.0",
+    "dotenv": "^16.4.5",
+    "mysql": "^2.18.1",
+    "redis": "^4.6.13"
+  }
+}
