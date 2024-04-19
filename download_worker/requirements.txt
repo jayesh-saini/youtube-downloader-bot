@@ -1,0 +1,5 @@
+redis
+pytube
+mysql.connector
+uuid
+dotenv
